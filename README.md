@@ -14,6 +14,8 @@ $ meteor add didericis:callpromise-mixin
 #### How to define
 
 ```js
+import { CallPromiseMixin } from 'meteor/didericis:callpromise-mixin';
+
 testMethod = new ValidatedMethod({
     name: 'testMethod',
     mixins: [CallPromiseMixin],
